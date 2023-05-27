@@ -27,11 +27,6 @@ nav {
 }
 
 
-.logo {
-
-  display: flex;
-}
-
 .logo img {
 
   cursor: pointer;
@@ -39,13 +34,14 @@ nav {
 
 
 .menus {
-  display: flex;
+ 
   align-items: center;
 
 }
 
 .menus.links a {
   margin-bottom: 2rem;
+  
 
 }
 
@@ -53,6 +49,7 @@ nav {
   color: var(--text-color);
   text-decoration: none;
   margin-right: 2rem;
+ 
 
 }
 
