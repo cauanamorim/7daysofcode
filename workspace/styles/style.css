@@ -32,40 +32,47 @@ nav {
   display: flex;
 }
 
+.logo img {
+
+  cursor: pointer;
+}
+
 
 .menus {
   display: flex;
   align-items: center;
-  
-
 
 }
 
-.menus.links a{
+.menus.links a {
   margin-bottom: 2rem;
+
 }
 
 .links a {
   color: var(--text-color);
   text-decoration: none;
   margin-right: 2rem;
-  
+
 }
 
 
-.buttons {
+
+.entrar {
   padding: 0.8rem 1rem;
   cursor: pointer;
-
-  border-radius: 0.5rem;
+  border: none;
   background: none;
   color: var(--text-color);
-  font-size: 0.9rem;
+  font-weight: 500;
+  font-size: 16px;
 
 }
 
-button.entrar {
-
+.cadastrar {
+  color: #FFF;  
   background-color: var(--main-color);
-  color: #FFF;
+  font-size: 0.9rem;
+  border-radius: 0.5rem;
+  padding: 0.8rem 1rem;
 }
